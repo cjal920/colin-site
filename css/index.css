@@ -166,18 +166,18 @@ section.pilots {
   color: #fff;
 }
 
-/* FIRST */
+/* LEAH ROSE */
 
 section.leah-rose {
   position: relative;
   width: 100%;
   padding-top: 150px;
   padding-bottom: 100px;
-  background: #555555;
+  background: #a3a3a3;
   color: #000000;
 }
 
-/* SECOND */
+/* BETWEEN LINES */
 
 section.between-lines {
   position: relative;
@@ -188,14 +188,14 @@ section.between-lines {
   color: #fff;
 }
 
-/* THIRD */
+/* FISHTOWN */
 
 section.fishtown {
   position: relative;
   width: 100%;
   padding-top: 150px;
   padding-bottom: 100px;
-  background: #161616;
+  background: #5e5e5e;
   color: #fff;
 }
 
