@@ -60,7 +60,8 @@ h5 {
 }
 
 .dropdown-toggle:hover,
-.material-icons:hover {
+.material-icons:hover,
+.fas:hover {
   color: #725700;
 }
 
