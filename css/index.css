@@ -89,6 +89,23 @@ h5 {
     background-color: #fff;
   }
 
+/* AWARDS */
+
+#awards {
+  font-size: 10px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #000000;
+  opacity: .75;
+  background-color: transparent;
+  border: none;
+}
+
+#awards:hover {
+  text-decoration: none;
+  opacity: 1;
+}
+
 /* WELCOME */
 
 section.welcome {
