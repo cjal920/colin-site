@@ -1,0 +1,129 @@
+/* MAIN */
+
+body    {
+    /* color: #000; */
+    background: #c7c7c7;
+    font-weight: 100;
+}
+
+
+#header  {
+    position: fixed;
+    height: 60px;
+    width: 100%;
+    color: #fff;
+    background: #2b2b2b;
+    z-index: 1;
+}
+
+.nav    {
+    padding-top: 18px;
+}
+
+#main   {
+    padding-top: 120px;
+}
+
+
+/* LEAH ROSE */
+
+.project__index    {
+    color: #000;
+    background: #fff;
+    margin-top: 40px;
+    padding-left: 50px;
+    padding-right: 50px;
+    box-shadow: 10px 10px 5px 1px #2b2b2b;
+}
+
+  .title__index {
+    padding-top: 20px;
+    color: #2b2b2b;
+    font-size: 85px;
+    font-weight: bold;
+}
+
+.stats__index   {
+    color: #2b2b2b;
+    font-size: 30px;
+}
+
+.awards__index    {
+    font-weight: bold;
+}
+
+#awards-list__index  {
+    color: #000;
+    text-decoration: none;
+}
+
+#awards-list__index:hover    {
+    font-weight: bold;
+}
+
+.img-container__index {
+    position: relative;
+    text-align: center;
+    padding-top: 50px;
+} 
+
+#img__index  {
+    border: solid 8px #2b2b2b;
+    width: 100%; 
+}
+
+.lr-title-img__Leah    {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    width: 100%;
+    transform: translate(-50%, -50%);
+    font-family: 'Rochester', cursive;
+    color: #650072;
+    text-shadow: 2px 2px #000;
+    font-size: 70px;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+#lr-trailer-btn__index,
+#play-leah-rose  {
+    background-color: #fff;
+    border-color: transparent; 
+    outline: none;
+}  
+
+  .lr-trailer-symbol__index {
+    margin-top: -100px;
+    font-size: 80px;
+    /* font-weight: bold; */
+    color: #000;
+    opacity: 0.25;
+  } 
+
+  .lr-trailer-symbol__index:hover {
+    opacity: 1; 
+  }
+
+
+
+#lr-coverfly {
+    margin-top: -30px;
+    color: #000;
+    text-decoration: none;
+}
+
+#lr-blacklist {
+    margin-top: -30px;
+    color: #000;
+    text-decoration: none;
+}
+
+#lr-coverfly:hover,
+#lr-blacklist:hover   {
+    font-weight: bold;
+}
+
+

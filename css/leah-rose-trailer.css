@@ -1,0 +1,88 @@
+body    {
+    background-color: #000;
+}
+
+/* LEAH ROSE PAGE */  
+
+
+.lr-syn   {
+    position: absolute;
+    width: 90%;
+    margin-top: 2.5%;
+    margin-left: 2.5%;
+    font-size: 18px;
+    color: #fff;
+}
+
+#lr-syn1   {
+    margin-top: 20%;
+    font-size: 30px;
+    text-align: center; 
+    display: none;
+}
+
+#lr-syn2   {
+    margin-top: -27px;
+    font-size: 30px; 
+    text-align: center; 
+    display: none;
+}
+
+#lr-syn3,
+#lr-syn4,
+#lr-syn5,
+#lr-syn6,
+#lr-syn7,
+#lr-syn8
+{
+    text-shadow: 2px 2px #000;
+    display: none;
+}
+
+
+#leah-rose-tag  {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    padding-top: 200px;
+    padding-bottom: 50px;
+    font-size: 28px;
+    display: none;
+}
+
+.leah-rose-title-two    {
+        position: absolute;
+        text-align: center;
+        width: 100%;
+        padding-top: 250px;
+        font-family: 'Rochester', cursive;
+        font-size: 120px;
+        display: none;
+}
+
+
+#lr-aff-img {
+    padding-top: 75px;
+    padding-left: 400px;
+    filter: opacity(0.5) drop-shadow(0 0 0 #fff) brightness(100%);
+    display: none;
+  }
+
+#lr-quote {
+    margin-top: 20px;
+    font-size: 20px;
+    text-align: center; 
+    width: 100%;
+    display: none;
+}
+
+#lr-aff  {
+    font-size: 20px;
+    font-style: italic;
+    text-align: center; 
+    width: 100%;
+    display: none;
+}
+
+
+
