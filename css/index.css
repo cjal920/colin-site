@@ -23,6 +23,7 @@ h5 {
   text-transform: uppercase;
 }
 
+
 #mainNav {
   background-color: #ffffff;
   -webkit-transition: all 1s;
@@ -106,6 +107,20 @@ h5 {
   opacity: 1;
 }
 
+#poster {
+  width: 100%;
+  border: outset #888888 10px;
+  /* border-top-color: #a8a8a8; */
+  /* border-bottom-color: #a8a8a8;
+  border-left-color: #d4d4d4;
+  border-right-color: #d4d4d4; */
+}
+
+.title  {
+  font-size: 70px;
+  font-weight: bold;
+}
+
 /* WELCOME */
 
 section.welcome {
@@ -146,9 +161,6 @@ section.about {
   color: #fff;
 }
 
-img  {
-  width: 200px;
-}
 
 
 /* FEATURES */
@@ -173,26 +185,16 @@ section.pilots {
   color: #fff;
 }
 
-/* PILOTS */
-
-section.pilots {
-  position: relative;
-  width: 100%;
-  padding-top: 150px;
-  padding-bottom: 100px;
-  background: #555555;
-  color: #fff;
-}
 
 /* LEAH ROSE */
 
 section.leah-rose {
   position: relative;
   width: 100%;
-  padding-top: 150px;
+  padding-top: 100px;
   padding-bottom: 100px;
-  background: #a3a3a3;
-  color: #000000;
+  background: #000;
+  color: #888;
 }
 
 /* BETWEEN LINES */
@@ -282,8 +284,8 @@ section.accord {
 }
 
 .accordion {
-  background-color: #eee;
-  color: #444;
+  background-color: #444;
+  color: #fff;
   cursor: pointer;
   padding: 18px;
   width: 100%;
@@ -311,7 +313,7 @@ section.accord {
 }
 
 .accordion:hover  {
-  background: #9b9b9b;
+  background: #000;
 }
 
 .active-accordion:after {
