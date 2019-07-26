@@ -6,7 +6,7 @@ $(document).ready(function()    {
 
 
 //plays selected audio
-const playLeahRose = $("#leah-bugsy")[0];
+const playLeahRose = $("#leah-audio")[0];
 
 //opens leah-rose-trailer page
 $("#play-leah-rose").on("click", function() {

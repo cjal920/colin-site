@@ -70,7 +70,23 @@ h5 {
   font-size: 10px;
   letter-spacing: 2px;
   text-transform: uppercase;
+  color: #000;
 }
+
+.dropdown-link  {
+  font-size: 10px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-left: 17px;
+  color: #000000;
+}
+
+.dropdown-link:hover  {
+  color: #725700;
+  text-decoration: none;
+}
+
+
 
   #mainNav {
     border-color: transparent;
@@ -125,6 +141,18 @@ h5 {
 
 button  {
   background: #000;
+  color: #fff;
+  opacity: .5;
+  border: none;
+  text-decoration: none;
+}
+
+button:focus  {
+    outline: none;
+}
+
+button:hover  {
+  opacity: 1;
 }
 
 /* WELCOME */
@@ -219,10 +247,10 @@ section.between-lines {
 section.fishtown {
   position: relative;
   width: 100%;
-  padding-top: 150px;
+  padding-top: 100px;
   padding-bottom: 100px;
-  background: #5e5e5e;
-  color: #fff;
+  background: #000;
+  color: #888;
 }
 
 
