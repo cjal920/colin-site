@@ -1,5 +1,12 @@
 $(document).ready(function()    {
 
+
+
+  $("#leah-rose-credits").click(function(){
+    $("#leah-rose-title").fadeIn(1000).delay(1000).fadeOut(1000);
+  });
+
+
 /* LEAH ROSE PAGE */  
 
 //leah-rose page trailer and credits variables and functions
