@@ -275,17 +275,30 @@ section.leah-rose {
   color: #888;
 }
 
-#leah-rose-bg  {
+.leah-rose-screen {
   position: relative;
-  width: 90%;
-  margin-bottom: 10px;
+  width: 100%;
 }
 
-#leah-rose-title  {
+#leah-rose-bg  {
   position: absolute;
-  width: 90%;
-  margin-bottom: 10px;
-  margin-left: -85%;
+  width: 100%;
+}
+
+#leah-rose-src1,
+#leah-rose-src2,
+#leah-rose-src3,
+#leah-rose-src4,
+#leah-rose-src5,
+#leah-rose-src6,
+#leah-rose-src7,
+#leah-rose-src8,
+#leah-rose-src9,
+#leah-rose-src10,
+#leah-rose-src11,
+#leah-rose-src12  {
+  position: absolute;
+  width: 100%;
   display: none;
 }
 
