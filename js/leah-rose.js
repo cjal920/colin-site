@@ -3,10 +3,12 @@ $(document).ready(function()    {
 
 
   $("#leah-rose-credits").click(function(){
-    $("#leah-rose-src1").fadeIn(1000).delay(11000).fadeOut(2000);
+    $("#leah-rose-src1").fadeIn(1000).delay(20000).fadeOut(2000);
     $("#leah-rose-src2").delay(2000).fadeIn(1000).delay(1000).fadeOut(1000);
     $("#leah-rose-src3").delay(6000).fadeIn(1000).delay(1000).fadeOut(1000);
     $("#leah-rose-src4").delay(10000).fadeIn(1000).delay(2000).fadeOut(2000);
+    $("#leah-rose-src5").delay(18000).fadeIn(1000).delay(2000).fadeOut(2000);
+    playLeahRose.play();
   });
 
 
