@@ -139,49 +139,7 @@ h4
   font-weight: bold;
 }
 
-/********** TABS **********/
-.tab-list {
-  margin: 0;
-  padding: 0;}
 
-.tab-list li {
-  display: inline-block;
-  list-style-type: none;
-  background-color: #303030;
-  border-bottom: 3px solid #858585;
-  font-family: 'Jacques Francois', serif;
-  text-transform: uppercase;
-  letter-spacing: 0.2em;}
-
-.tab-list li a {
-  color: #f2f2f2;
-  display: block;
-  padding: 3px 10px 3px 10px;}
-
-
-/********** HOVER STATES **********/
-.tab-list li.active, .tab-list li.hover {
-  background-color: #e5e5e5;
-  border-bottom: 3px solid #e5e5e5;}
-
-.tab-list li.active a, .tab-list li a:hover {
-  color: #666;
-  background-color: #e5e5e5;}
-
-
-/********** PANELS **********/
-.tab-panel {
-  display: none;
-  background-color: #e5e5e5;
-  color: #666;
-  min-height: 150px;
-  overflow: auto;}
-
-.tab-panel.active {
-  display: block;}
-
-.tab-panel p {
-  margin: 20px;}
 
 /* /// BUTTON DESIGN /// */
 
@@ -277,7 +235,7 @@ section.leah-rose {
   padding-top: 50px;
   padding-bottom: 50px;
   background: #000;
-  color: #888;
+  color: #fff;
 }
 
 .leah-rose-screen {
@@ -315,7 +273,7 @@ section.between-lines {
   padding-top: 100px;
   padding-bottom: 100px;
   background: #000;
-  color: #888;
+  color: #fff;
 }
 
 /* FISHTOWN */
@@ -326,7 +284,7 @@ section.fishtown {
   padding-top: 100px;
   padding-bottom: 100px;
   background: #000;
-  color: #888;
+  color: #fff;
 }
 
 
@@ -646,3 +604,110 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
   padding-right: 0;
   padding-left: 0;
 }
+
+
+/* TEST SECTION */
+
+/* LEAH ROSE TEST */
+
+section.leah_rose {
+  position: relative;
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background: #1a1a1a;
+  color: #888;
+}
+
+.leah-rose-screen {
+  position: relative;
+  width: 100%;
+}
+
+#leah-rose-bg  {
+  position: absolute;
+  width: 100%;
+}
+
+#leah-rose-src1,
+#leah-rose-src2,
+#leah-rose-src3,
+#leah-rose-src4,
+#leah-rose-src5,
+#leah-rose-src6,
+#leah-rose-src7,
+#leah-rose-src8,
+#leah-rose-src9,
+#leah-rose-src10,
+#leah-rose-src11,
+#leah-rose-src12  {
+  position: absolute;
+  width: 100%;
+  display: none;
+}
+
+/* BETWEEN LINES TEST */
+
+section.between_lines {
+  position: relative;
+  width: 100%;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background: #1a1a1a;
+  color: #888;
+}
+
+/* FISHTOWN TEST */
+
+section.fish_town {
+  position: relative;
+  width: 100%;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background: #1a1a1a;
+  color: #888;
+}
+
+/********** TABS **********/
+.tab-list {
+  margin: 0;
+  padding: 0;}
+
+.tab-list li {
+  display: inline-block;
+  list-style-type: none;
+  background-color: #303030;
+  border-bottom: 3px solid #858585;
+  font-family: 'Jacques Francois', serif;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;}
+
+.tab-list li a {
+  color: #f2f2f2;
+  display: block;
+  padding: 3px 10px 3px 10px;}
+
+
+/********** HOVER STATES **********/
+.tab-list li.active, .tab-list li.hover {
+  background-color: #e5e5e5;
+  border-bottom: 3px solid #e5e5e5;}
+
+.tab-list li.active a, .tab-list li a:hover {
+  color: #666;
+  background-color: #e5e5e5;}
+
+
+/********** PANELS **********/
+.tab-panel {
+  display: none;
+  background-color: #e5e5e5;
+  color: #666;
+  min-height: 150px;
+  overflow: auto;}
+
+.tab-panel.active {
+  display: block;}
+
+.tab-panel p {
+  margin: 20px;}
