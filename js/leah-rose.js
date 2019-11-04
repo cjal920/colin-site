@@ -1,7 +1,5 @@
 $(document).ready(function()    {
 
-
-
   $("#leah-rose-credits").click(function(){
     $("#leah-rose-src1").fadeIn(1000).delay(20000).fadeOut(2000);
     $("#leah-rose-src2").delay(2000).fadeIn(1000).delay(1000).fadeOut(1000);
@@ -73,11 +71,35 @@ face whatever the dark days ahead may bring.`,
   $("#lr-aff-img").delay(74000).fadeIn(1000).delay(7000).fadeOut(1000);
   $("#lr-quote").html(trailerLeahRose[10]).delay(77000).fadeIn(1000).delay(4000).fadeOut(1000);
   $("#lr-aff").html(trailerLeahRose[11]).delay(79000).fadeIn(1000).delay(2000).fadeOut(1000);
-
-
-
-
 });
+
+$(function() {
+	var Accordion = function(el, multiple) {
+		this.el = el || {};
+		this.multiple = multiple || false;
+
+		// Variables privadas
+		var links = this.el.find('.link');
+		// Evento
+		links.on('click', {el: this.el, multiple: this.multiple}, this.dropdown)
+	}
+
+	Accordion.prototype.dropdown = function(e) {
+		var $el = e.data.el;
+			$this = $(this),
+			$next = $this.next();
+
+		$next.slideToggle();
+		$this.parent().toggleClass('open');
+
+		if (!e.data.multiple) {
+			$el.find('.submenu').not($next).slideUp().parent().removeClass('open');
+		};
+	}	
+
+	var accordion = new Accordion($('#accordion'), false);
+});
+
 
 
 
