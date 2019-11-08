@@ -60,20 +60,31 @@ h4
   outline: none;
 }
 
-.dropdown-toggle:hover,
-.material-icons:hover {
-  color: #725700;
+.navbar-toggler,
+.dropdown-toggle,
+.material-icons {
+  color: #fff;
 }
 
-/* .fas:hover  {
-  color: #725700;
-} */
+.dropdown-toggle:hover,
+.material-icons:hover {
+  color: #fff;
+}
 
-.nav-link  {
+.fas {
+  color: #fff;
+}
+
+.fas:hover {
+  color: #555;
+}
+
+.nav-link,
+.navbar-toggler-right  {
   font-size: 10px;
   letter-spacing: 2px;
   text-transform: uppercase;
-  color: #000;
+  color: #fff;
 }
 
 .dropdown-link  {
@@ -101,11 +112,12 @@ h4
   } */
 
   #mainNav .navbar-nav > li > a:hover {
-    color: #725700;
+    color: #000;
   }
 
   #mainNav.navbar-shrink {
-    background-color: #fff;
+    background-color: #555;
+    color: #000;
   }
 
 /* AWARDS */
@@ -211,8 +223,8 @@ section.features {
   width: 100%;
   padding-top: 20px;
   padding-bottom: 10px;
-  background: #fff;
-  color: #000;
+  background: #555;
+  color: #fff;
 }
 
 /* PILOTS */
@@ -222,8 +234,8 @@ section.pilots {
   width: 100%;
   padding-top: 20px;
   padding-bottom: 10px;
-  background: #fff;
-  color: #000;
+  background: #555;
+  color: #fff;
 }
 
 
