@@ -169,7 +169,7 @@ h4
 
 
 
-/* /// BUTTON DESIGN /// */
+/* BUTTON DESIGN */
 
 button  {
   background: #000;
@@ -229,6 +229,12 @@ color: #fff;
   position: relative;
   display: inline-block;
 }
+
+a:hover {
+  color: #000;
+}
+
+/*  */
 
 .dropdown-content {
   display: none;
