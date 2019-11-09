@@ -296,13 +296,25 @@ section.pilots {
   color: #fff;
 }
 
+/* SPACER */
+
+section.spacer {
+  position: relative;
+  width: 100%;
+  padding-top: 110px;
+  background: #000;
+
+}
+
+
+
 
 /* LEAH ROSE */
 
 section.leah-rose {
   position: relative;
   width: 100%;
-  padding-top: 50px;
+  padding-top: 25px;
   padding-bottom: 50px;
   background: #000;
   color: #fff;
@@ -340,8 +352,8 @@ section.leah-rose {
 section.between-lines {
   position: relative;
   width: 100%;
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding-top: 25px;
+  padding-bottom: 50px;
   background: #000;
   color: #fff;
 }
@@ -351,8 +363,8 @@ section.between-lines {
 section.fishtown {
   position: relative;
   width: 100%;
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding-top: 25px;
+  padding-bottom: 50px;
   background: #000;
   color: #fff;
 }
