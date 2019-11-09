@@ -137,19 +137,35 @@ h4
   opacity: 1;
 }
 
+.poster {
+  padding: 50px;
+}
+
 #poster {
   width: 100%;
   border: outset #888888 10px;
+
   /* border-top-color: #a8a8a8; */
   /* border-bottom-color: #a8a8a8;
   border-left-color: #d4d4d4;
   border-right-color: #d4d4d4; */
 }
 
+ 
+.project {
+  padding-top: 65px;
+  padding-left: 65px;
+  padding-right: 65px;
+}
+
 .title  {
   font-size: 50px;
   font-weight: bold;
+  line-height: 50px;
+  padding-bottom: 20px;
 }
+
+
 
 
 
