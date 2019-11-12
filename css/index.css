@@ -266,8 +266,8 @@ a:hover {
 section.about {
   position: relative;
   width: 100%;
-  padding-top: 100px;
-  padding-bottom: 200px;
+  padding-top: 75px;
+  padding-bottom: 225px;
   background: #000;
   color: #fff;
 }
@@ -298,12 +298,25 @@ section.pilots {
 
 /* SPACER */
 
-section.spacer {
+section.spacer-lr {
+  position: relative;
+  width: 100%;
+  padding-top: 110px;
+  background: #eee;
+}
+
+section.spacer-bl {
+  position: relative;
+  width: 100%;
+  padding-top: 110px;
+  background: #fff;
+}
+
+section.spacer-f {
   position: relative;
   width: 100%;
   padding-top: 110px;
   background: #000;
-
 }
 
 
@@ -316,8 +329,8 @@ section.leah-rose {
   width: 100%;
   padding-top: 25px;
   padding-bottom: 50px;
-  background: #000;
-  color: #fff;
+  background: #eeeeee;
+  color: #000000;
 }
 
 .leah-rose-screen {
@@ -354,8 +367,8 @@ section.between-lines {
   width: 100%;
   padding-top: 25px;
   padding-bottom: 50px;
-  background: #000;
-  color: #fff;
+  background: #fff;
+  color: #000000;
 }
 
 /* FISHTOWN */
