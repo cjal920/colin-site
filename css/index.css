@@ -140,10 +140,20 @@ h4
 .poster {
   padding: 50px;
 }
-
-#poster {
+ 
+#poster-lr {
   width: 100%;
-  border: outset #888888 10px;
+  border: outset #867828 10px;
+}
+
+#poster-bl {
+  width: 100%;
+  border: outset #1d9100 10px;
+}
+
+#poster-f {
+  width: 100%;
+  border: outset #fbff00 10px;
 
   /* border-top-color: #a8a8a8; */
   /* border-bottom-color: #a8a8a8;
