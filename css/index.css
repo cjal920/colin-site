@@ -4948,7 +4948,7 @@ input[type="button"].btn-block {
 
 /*  */
 
-.accordion > .card:not(:last-of-type) {
+/* .accordion > .card:not(:last-of-type) {
   border-bottom: 0;
   border-bottom-right-radius: 0;
   border-bottom-left-radius: 0;
@@ -4962,8 +4962,8 @@ input[type="button"].btn-block {
 .accordion > .card > .card-header {
   border-radius: 0;
   margin-bottom: -1px;
-}
-
+} */
+/* 
 .breadcrumb {
   display: -ms-flexbox;
   display: flex;
@@ -5246,8 +5246,8 @@ a.badge-dark:hover, a.badge-dark:focus {
 a.badge-dark:focus, a.badge-dark.focus {
   outline: 0;
   box-shadow: 0 0 0 0.2rem rgba(52, 58, 64, 0.5);
-}
-
+} */
+/* 
 .jumbotron {
   padding: 2rem 1rem;
   margin-bottom: 2rem;
@@ -5405,8 +5405,8 @@ a.badge-dark:focus, a.badge-dark.focus {
 
 .alert-dark .alert-link {
   color: #040505;
-}
-
+} */
+/* 
 @-webkit-keyframes progress-bar-stripes {
   from {
     background-position: 1rem 0;
@@ -5471,7 +5471,7 @@ a.badge-dark:focus, a.badge-dark.focus {
     -webkit-animation: none;
     animation: none;
   }
-}
+} */
 
 .media {
   display: -ms-flexbox;
@@ -5859,7 +5859,7 @@ a.close.disabled {
   pointer-events: none;
 }
 
-.toast {
+/* .toast {
   max-width: 350px;
   overflow: hidden;
   font-size: 0.875rem;
@@ -5904,7 +5904,7 @@ a.close.disabled {
 
 .toast-body {
   padding: 0.75rem;
-}
+} */
 
 .modal-open {
   overflow: hidden;
@@ -6134,7 +6134,7 @@ a.close.disabled {
   }
 }
 
-.tooltip {
+/* .tooltip {
   position: absolute;
   z-index: 1070;
   display: block;
@@ -7968,7 +7968,7 @@ button.bg-dark:focus {
 .position-sticky {
   position: -webkit-sticky !important;
   position: sticky !important;
-}
+} */
 
 .fixed-top {
   position: fixed;
@@ -7985,7 +7985,7 @@ button.bg-dark:focus {
   left: 0;
   z-index: 1030;
 }
-
+/* 
 @supports ((position: -webkit-sticky) or (position: sticky)) {
   .sticky-top {
     position: -webkit-sticky;
@@ -8534,12 +8534,14 @@ button.bg-dark:focus {
 .my-auto {
   margin-bottom: auto !important;
 }
+*/
 
 .ml-auto,
 .mx-auto {
   margin-left: auto !important;
 }
 
+/* 
 @media (min-width: 576px) {
   .m-sm-0 {
     margin: 0 !important;
@@ -10228,5 +10230,5 @@ a.text-dark:hover, a.text-dark:focus {
     color: inherit;
     border-color: #dee2e6;
   }
-}
+} */ 
 /*# sourceMappingURL=bootstrap.css.map */
