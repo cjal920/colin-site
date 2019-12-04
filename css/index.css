@@ -5472,7 +5472,7 @@ a.badge-dark:focus, a.badge-dark.focus {
     animation: none;
   }
 } */
-
+/* 
 .media {
   display: -ms-flexbox;
   display: flex;
@@ -5825,7 +5825,7 @@ a.badge-dark:focus, a.badge-dark.focus {
   color: #fff;
   background-color: #1b1e21;
   border-color: #1b1e21;
-}
+} */
 
 .close {
   float: right;
