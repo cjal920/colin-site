@@ -9,6 +9,24 @@ $(document).ready(function()    {
     playLeahRose.play();
   });
 
+  $("#leah-rose-credits-1").click(function(){
+    $("#leah-rose-src1").fadeIn(1000).delay(20000).fadeOut(2000);
+    $("#leah-rose-src2").delay(2000).fadeIn(1000).delay(1000).fadeOut(1000);
+    $("#leah-rose-src3").delay(6000).fadeIn(1000).delay(1000).fadeOut(1000);
+    $("#leah-rose-src4").delay(10000).fadeIn(1000).delay(2000).fadeOut(2000);
+    $("#leah-rose-src5").delay(18000).fadeIn(1000).delay(2000).fadeOut(2000);
+    playLeahRoseOne.play();
+  });
+
+  $("#leah-rose-credits-2").click(function(){
+    $("#leah-rose-src1").fadeIn(1000).delay(20000).fadeOut(2000);
+    $("#leah-rose-src2").delay(2000).fadeIn(1000).delay(1000).fadeOut(1000);
+    $("#leah-rose-src3").delay(6000).fadeIn(1000).delay(1000).fadeOut(1000);
+    $("#leah-rose-src4").delay(10000).fadeIn(1000).delay(2000).fadeOut(2000);
+    $("#leah-rose-src5").delay(18000).fadeIn(1000).delay(2000).fadeOut(2000);
+    playLeahRoseTwo.play();
+  });
+
 
 /* LEAH ROSE PAGE */  
 
@@ -17,6 +35,8 @@ $(document).ready(function()    {
 
 //plays selected audio
 const playLeahRose = $("#leah-audio")[0];
+const playLeahRoseOne = $("#leah-audio-1")[0];
+const playLeahRoseTwo = $("#leah-audio-2")[0];
 
 //opens leah-rose-trailer page
 $("#play-leah-rose").on("click", function() {
